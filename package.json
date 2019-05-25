@@ -1,0 +1,54 @@
+{
+  "name": "cm-pos",
+  "version": "0.1.0",
+  "homepage": "http://localhost/demo",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "chart.js": "^2.8.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "formidable": "^1.2.1",
+    "fs-extra": "^8.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.5.7",
+    "mongoose-sequence": "^5.0.1",
+    "react": "^16.8.6",
+    "react-chartjs-2": "^2.7.6",
+    "react-dom": "^16.8.6",
+    "react-moment": "^0.9.2",
+    "react-number-format": "^4.0.7",
+    "react-redux": "^7.0.3",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.1",
+    "redux": "^4.0.1",
+    "redux-form": "^8.2.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "url-join": "^4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
