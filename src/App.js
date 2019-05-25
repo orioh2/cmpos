@@ -17,7 +17,7 @@ import * as actions from "../src/actions/app.action";
 
 import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 import { server } from "./constants";
-//Arrow function = ตัวแปรแทนฟังก์ชั่น
+//Arrow function = ตัวแปรแทนฟังก์ชั่น okna
 const isLoggedIn = ()=>{
   return localStorage.getItem(server.TOKEN_KEY) != null;
 }
